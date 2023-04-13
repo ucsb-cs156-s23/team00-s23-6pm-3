@@ -7,7 +7,6 @@ import ArroyoGrandePage from "main/pages/ArroyoGrandePage";
 import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
-<<<<<<< HEAD
 
   return (
     <BrowserRouter basename="/team00-s23-6pm-3">
@@ -19,30 +18,6 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
-=======
-    return (
-        <BrowserRouter basename="/STARTER-team00-team00-s23-6pm-3">
-            <Routes>
-                <Route exact path="/" element={<HomePage />} />
-                <Route
-                    exact
-                    path="/towns/AvilaBeach"
-                    element={<AvilaBeachPage />}
-                />
-                <Route
-                    exact
-                    path="/towns/LosAlamos"
-                    element={<LosAlamosPage />}
-                />
-                <Route
-                    exact
-                    path="/towns/ArroyoGrande"
-                    element={<ArroyoGrandePage />}
-                />
-            </Routes>
-        </BrowserRouter>
-    );
->>>>>>> c0627bd176b0acc5fbe61f59556db9923188f47a
 }
 
 export default App;
