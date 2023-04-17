@@ -23,7 +23,7 @@ function App() {
         <Route exact path="/towns/Bentonville" element={<BentonvillePage />} />
         <Route exact path="/towns/SanDiego" element={<SanDiegoPage />} />
         <Route exact path="/towns/Calgary" element={<CalgaryPage />} />
-        <Route exact path="/towns/Solvang" element={<Solvang />} />
+        <Route exact path="/towns/Solvang" element={<SolvangPage />} />
         <Route exact path="/towns/LosAngeles" element={<LosAngelesPage />} />
       </Routes>
     </BrowserRouter>

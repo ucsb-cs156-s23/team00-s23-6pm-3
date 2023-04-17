@@ -6,7 +6,7 @@ export default function CalgaryPage() {
             <div className="pt-2">
                 <h1>Calgary, Alberta, Canada</h1>
                 <p>
-                    Calgary is the largest city in Alberta and is known for its
+                    <b>Calgary, Alberta</b> is the largest city in Alberta and is known for its
                     amazing food scene with restaurants offering almost every
                     cuisine around the world. Rocky mountains and surreal landscapes
                     add charm to this place. Aside from picturesque locations and
